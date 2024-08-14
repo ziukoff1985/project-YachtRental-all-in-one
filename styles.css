@@ -367,7 +367,7 @@ body {
 
 /* HERO SECTION STYLES */
 .hero {
-  background-image: url("/images/hero/background-mob-@1x.jpg");
+  background-image: url("./images/hero/background-mob-@1x.jpg");
 
   padding: 260px 0 302px;
   min-width: 320px;
@@ -383,7 +383,7 @@ body {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url("/images/hero/background-mob-@2x.jpg");
+    background-image: url("./images/hero/background-mob-@2x.jpg");
   }
 }
 .hero-logo {
@@ -423,7 +423,7 @@ body {
 }
 @media (min-width: 768px) {
   .hero {
-    background-image: url("/images/hero/background-tab-@1x.jpg");
+    background-image: url("./images/hero/background-tab-@1x.jpg");
     padding: 280px 0 282px;
     max-width: 768px;
   }
@@ -432,7 +432,7 @@ body {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url("/images/hero/background-tab-@2x.jpg");
+      background-image: url("./images/hero/background-tab-@2x.jpg");
     }
   }
   .hero-logo {
@@ -459,7 +459,7 @@ body {
     padding-right: 140px;
   }
   .hero {
-    background-image: url("/images/hero/background-1280-@1x.jpg");
+    background-image: url("./images/hero/background-1280-@1x.jpg");
     padding: 235px 0 215px;
     max-width: 1280px;
   }
@@ -467,7 +467,7 @@ body {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url("/images/hero/background-1280-@2x.jpg");
+      background-image: url("./images/hero/background-1280-@2x.jpg");
     }
   }
   .hero-logo {
@@ -477,14 +477,14 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .hero {
-    background-image: url("/images/hero/background-1440-@1x.jpg");
+    background-image: url("./images/hero/background-1440-@1x.jpg");
     max-width: 1440px;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url("/images/hero/background-1440-@2x.jpg");
+      background-image: url("./images/hero/background-1440-@2x.jpg");
     }
   }
 }
