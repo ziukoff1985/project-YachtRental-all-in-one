@@ -147,6 +147,14 @@ body {
     max-width: 1440px;
   }
 }
+
+.hero-btn,
+.yacht-rental,
+.rent-btn {
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* END OF COMMON STYLES */
 
 /* HEADER STYLES */
@@ -154,7 +162,7 @@ body {
   min-width: 280px;
   max-width: 335px;
   position: absolute;
-  top: 20px;
+  top: 16px;
   left: 20px;
   right: 20px;
   border-radius: 8px;
@@ -183,7 +191,7 @@ body {
 }
 
 .menu-btn {
-  padding: 7px 0;
+  padding: 0 0;
   background-color: transparent;
   border: none;
 }
@@ -205,6 +213,12 @@ body {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.mobile-menu-transition {
+  transition-property: opacity, visibility;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 .mobile-menu.is-open {
@@ -266,6 +280,9 @@ body {
   width: 91px;
   background-color: rgba(27, 65, 75, 0.5);
   border-radius: 8px;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .nav-link-container:focus,
@@ -284,6 +301,9 @@ body {
 .mobile-social-icon {
   fill: #fbfbfb;
   opacity: 1;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .mobile-social-link:hover .mobile-social-icon {
@@ -330,6 +350,9 @@ body {
 
   .header-social-icon {
     fill: #1b414b;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
   }
 
   .header-social-icon:hover,
@@ -1036,11 +1059,20 @@ body {
   height: 42px;
   margin-bottom: 18px;
   font-size: 12px;
+  transition-property: border, color, font-size, outline;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .rent-input:hover,
 .rent-input:focus {
   font-size: 14px;
+}
+
+.rent-input::placeholder {
+  transition-property: font-size, line-height, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .rent-input:hover::placeholder,
@@ -1053,6 +1085,15 @@ body {
   height: 108px;
   resize: none;
   margin-bottom: 40px;
+  transition-property: border, outline;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.rent-comment::placeholder {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .rent-btn {
@@ -1363,6 +1404,9 @@ body {
   height: 40px;
   border-radius: 8px;
   background-color: rgba(251, 251, 251, 0.3);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .footer-nav-link {
@@ -1377,6 +1421,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .footer-nav-item:hover,
@@ -1422,6 +1469,9 @@ body {
 
 .footer-soc-icon {
   fill: #fbfbfb;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .footer-main-text {
